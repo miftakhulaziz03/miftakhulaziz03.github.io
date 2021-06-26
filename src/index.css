@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "SFUITextRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SFUITextRegular"),
+    url("./assets/fonts/SF-UI-Text-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplayRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SFUIDisplayRegular"),
+    url("./assets/fonts/SF-UI-Display-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplayMedium";
+  src: local("SFUIDisplayMedium"),
+    url("./assets/fonts/SF-UI-Display-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplayBold";
+  font-weight: bold;
+  src: local("SFUIDisplayBold"),
+    url("./assets/fonts/SF-UI-Display-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "B612Regular";
+  font-weight: normal;
+  src: local("B612Regular"),url("./assets/fonts/B612-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "B612Bold";
+  font-weight: bold;
+  src: local("B612Bold"),url("./assets/fonts/B612-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "B612BoldItalic";
+  font-weight: bold;
+  src: local("B612BoldItalis"),url("./assets/fonts/B612-BoldItalic.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 12px / 20px B612_regular, "B612Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 12px;
+    line-height: normal;
+  }
+}
